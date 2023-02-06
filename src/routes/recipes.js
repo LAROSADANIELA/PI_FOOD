@@ -5,7 +5,7 @@ const db = require("../db");
 //   getRecipes
 // } = require("../controllers/dogs");
 
-router.get("/", recipeName),
+router.get("/:name", recipeName),
 router.get("/:id", recipeId);
 router.post("/", recipePost);
  
